@@ -26,6 +26,7 @@ function renderElements (tasks) {
   }
 
   return ul
+
 }
 
 function createTaskItem (obj) {
@@ -82,8 +83,7 @@ let addTaskButton = document.querySelector(".form__button--add-task");
     
     tasks.push(newObj);
     renderElements (tasks);
-      }
-    ) 
+    }
+  ) 
   
-    
  renderElements (tasks);
